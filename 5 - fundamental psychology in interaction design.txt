@@ -9,3 +9,9 @@ Depth vs breadth argument
 - limited attention span but
 - limited memory
 solution: tabs
+
+Scaffolding
+    - slowly take away hints until they are no longer needed
+
+Spaced retrieval for learning
+    Consider 'overlearning'

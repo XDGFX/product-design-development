@@ -1,0 +1,11 @@
+novice
+    new to the product
+    shows learaning curve
+    requires prompting, hints
+    
+intermediate
+    will forget how to do stuff
+    requires reminding
+
+advanced
+    shows shortcuts

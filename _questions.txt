@@ -12,7 +12,7 @@
 
 7. How would you apply a LCA to determine environmental impact? How can you use it to reduce your impact? What are advantages / limitations? [10]
 
-8. Explain how design is a learning process (CK). [8]
+8. Explain how design is a learning process. [8]
 
 9. State three outlooks you can have which may help with design tasks. [3]
 
@@ -65,3 +65,27 @@
 33. Define interaction design. [3]
 
 34. How can you ensure you are designing your product to fit the widest range of users? [10]
+
+35. Define ergonomics. Define Anthropometrics. Define user centred design. Define interaction design [8]
+
+36. Discuss different types of ergonomics [8]
+
+37. How do ergonomics, anthropometrics, ucd, and interaction design link? [5]
+
+38. Discuss the general contribution Donald Norman made to the user centred design approach. [4]
+
+39. Define a 'mental model'. Define the 'system image'. [6]
+
+40. Define metrics that can be used to measure creativity output. Give examples [10]
+
+41. Discuss the differences in creativity between the early and late stages of the design process [4]
+
+42. Discuss the differences between creative and routine design tasks. [4]
+
+43. Discuss the different stages of user group understanding in interaction design. [6]
+
+44. Give a brief overview of creativity over the last 1,000,000 years [8]
+
+45. When looking to recruit creative people to your team, what traits should you look for? [4]
+
+46. Explain three ways you can allow yourself to be more creative. [6]
