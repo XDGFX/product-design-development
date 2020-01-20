@@ -27,9 +27,13 @@ title = title.replace(subject, bcolors.HEADER + subject + bcolors.ENDC)
 with open('_questions.txt', 'r') as q:
     questions = q.read().splitlines()
 
+with open('_motivation.txt', 'r') as m:
+    motivations = m.read().splitlines()
+
 questions = [x for x in questions if x.strip()]
 
 i = len(questions)
+j = len(motivations)
 
 while 1:
 
@@ -93,4 +97,11 @@ while 1:
     print("")
     print("-" * width)
     print("")
-    input(bcolors.OKGREEN + "Press enter to continue... " + bcolors.ENDC)
+
+    selected = random.randint(0, j)
+
+    print(bcolors.OKGREEN + motivations[selected] + bcolors.ENDC)
+
+    print("")
+
+    input(bcolors.OKBLUE + "Press enter to continue... " + bcolors.ENDC)
