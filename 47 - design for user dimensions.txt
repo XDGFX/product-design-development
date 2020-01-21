@@ -1,0 +1,26 @@
+How to choose the best dimensions for design:
+    1. The anthropometric characteristics of the user population.
+    2. The ways in which these characteristics might impose constraints upon the design.
+    3. The criteria that define an effective match between the product and the user.
+
+    bell curve distribution
+
+    5 - 90 - 5 percentile rule
+
+    anthropometric key constraint criteria:
+        clearance
+        reach
+        posture
+        strength
+
+Solutions:
+    1. Design for the limiting user.
+    2. Define an area of common fit.
+    3. Provide adjustment. 
+
+Methods of analysis:
+    Fitting trials
+    Limiting anthropometric data
+    Body link diagram
+    Digital human simulation models
+    

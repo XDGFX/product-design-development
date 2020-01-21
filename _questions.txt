@@ -89,3 +89,23 @@
 45. When looking to recruit creative people to your team, what traits should you look for? [4]
 
 46. Explain three ways you can allow yourself to be more creative. [6]
+
+47. How do you choose a dimension that will fit a range of users? [10]
+
+48. What steps might you take to improve the eco-efficiency of an existing product such as an electric piano? [10]
+
+49. Describe a QFD approach to taking customer voice into account. List an improved method for new product development [8]
+
+50. State three desirable qualities for new products (from the consumers perspective). State three methods of improving one of them. [6]
+
+51. What is a customer profile model? How can they be used to improve design. [9]
+
+52. State the four freedoms in OSH. State the four levels of freedom. Give an example of something which represents each freedom (x4) [12]
+
+53. Give some examples of different ways of describing a creative process. [4]
+
+54. Define and give examples of ‘system’ and ‘system design’ and ‘system complexity’. [6]
+
+55. Discuss how the system levels interact with design process models. [3]
+
+56. Give three examples of where system models are helpful for specific design tools/methods. [6]

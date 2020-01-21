@@ -5,7 +5,7 @@ concept space
 - stuff you don't know to be true or false
 
 K-K 
-expansion by reduction
+expansion by deduction
 
 K-C
 combine knowledge to make concepts

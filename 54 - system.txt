@@ -1,0 +1,12 @@
+system:
+    regularly interactive independent group of items forming a unified hole
+
+system design:
+    process of defining architecture, modules, interfaces, and data for a system to satisfy requirements
+
+system complexity:
+    number of parts
+    number of types of parts.
+    number of inter connections
+    number of functions that the product is expected to perform
+    OR number of inter-dependencies and constraints.

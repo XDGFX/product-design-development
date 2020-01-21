@@ -1,3 +1,6 @@
+#! /usr/bin/env python3
+
+
 import os
 import random
 import subprocess
@@ -57,7 +60,7 @@ while 1:
         else:
             lines.append(line)
             # print("! Press enter once more to exit")
-            line = input(bcolors.WARNING + "! " + bcolors.ENDC)
+            line = input(bcolors.WARNING + "> " + bcolors.ENDC)
             if line:
                 lines.append(line)
             else:
