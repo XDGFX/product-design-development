@@ -33,14 +33,17 @@ with open('_questions.txt', 'r') as q:
 with open('_motivation.txt', 'r') as m:
     motivations = m.read().splitlines()
 
-with open('_counter.txt', 'r') as c:
-    done = c.read().splitlines()
-
-questions = [x for x in questions if x.strip()]
-
 i = len(questions)
 j = len(motivations)
 
+with open('_counter.txt', 'r+') as c:
+    done = c.read().splitlines()
+    if len(done) == i:  # Incase all questions done, clear file
+        c.truncate(0)
+
+questions = [x for x in questions if x.strip()]
+
+# Main loop
 while 1:
 
     selected = random.randint(0, i)
