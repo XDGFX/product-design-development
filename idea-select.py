@@ -150,7 +150,7 @@ while 1:
 
     print("")
 
-    with open('_counter.txt', 'a') as c:
+    with open('_counter.txt', 'a+') as c:
         c.write(str(selected) + "\n")
 
     input(bcolors.OKBLUE + "Press enter to continue... " + bcolors.ENDC)
