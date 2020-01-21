@@ -1,2 +1,11 @@
 sustainability is allowing users of today to meet their needs without compromising the ability of future generations to meet their needs
 environmental impact is alternation of environmental resources, e.g. elementry inflows and outflows, material usage, or pollution
+
+SAMPLE ANSWER
+
+Sustainability is defined as ensuring the needs of the population are met today, without limiting the ability for future generations to meet their needs.
+
+It is often measured by the functional unit divided by the environmental impact.
+Functional unit is the quality of a product (how well it works, the number of useful features) over the quantity (how long it can deliver it's functionality for).
+
+Environmental impact is the way the environment is affected as a result of the product, through resource usage or pollution.

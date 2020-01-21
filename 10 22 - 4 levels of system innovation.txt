@@ -5,4 +5,22 @@ only last two are relevant without changing the product
 3. function innovation
 4. system innovation
 
-factors earlier in the causal chain are more influencial
+factors earlier in the causal chain are more influential
+
+SAMPLE ANSWER
+
+The four pillars of innovation
+1. Product optimisation
+        In this case, the product is not to be modified so this is not relevant
+
+2. Product redesign
+        Again, the product is not to be changed. This would involve altering the method in which the product achieves it's goal to be done in a more sustainable way
+
+3. Function innovation
+        The function of the product could possibly be adapted to serve multiple purposes; is the problem that you're solving compatible with another problem, allowing greater value?
+
+4. System innovation
+        Is the problem you're solving a symptom of a larger fundamental problem? Could that be solved instead? By taking a systems approach, preconceptions about what a product must provide are challenged. Possibly the product would work as a PSS - possibly allowing for reduced impact and product usage while maximising revenue.
+
+Alternative options could include:
+        Analysing the product cycle, looking up the causal chain and determining if there are hot spots in the process which could be optimised (PLA)

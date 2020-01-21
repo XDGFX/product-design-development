@@ -33,6 +33,9 @@ with open('_questions.txt', 'r') as q:
 with open('_motivation.txt', 'r') as m:
     motivations = m.read().splitlines()
 
+with open('_counter.txt', 'r') as c:
+    done = c.read().splitlines()
+
 questions = [x for x in questions if x.strip()]
 
 i = len(questions)
@@ -41,6 +44,12 @@ j = len(motivations)
 while 1:
 
     selected = random.randint(0, i)
+
+    while str(selected) in done:
+        selected = random.randint(0, i)
+
+    with open('_counter.txt', 'a') as c:
+        c.write(str(selected) + "\n")
 
     os.system('clear')
 
