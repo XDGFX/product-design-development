@@ -22,3 +22,45 @@ improvement:
         Design for disposal (eol)
             - remanufacturing (modular design, most valuable or fragile easy to access)
             - recycling (use widely recyclable materials, avoid irriversable joining)
+
+
+SAMPLE ANSWER
+
+Life Cycle Analysis
+        1. Define the boundaries of the system
+        2. Perform an inventory analysis to determine all elementry flows in and out
+        3. Determine weighting of each flow (e.g. ReCiPe 2008)
+        4. Determine hot spots, work to improve
+
+Or shorter alternative such as MIPS Material Input Per unit of Service
+        Ecological ruckack; weight in vs useful weight out
+
+MECO
+        Material, Energy, Chemicals, Other
+
+Use of guidelines
+        e.g. required hazardous regulations e.g. ReHS
+        voluntary ecolabels e.g. energystar
+        brach specific e.g. 80+ efficiency
+
+Redesign to adhere to these
+
+Design for Environment Guidelines
+
+Design for Disposal (End of Life)
+        Allow for recycle
+        - easy to separate materials
+        - widely recyclable materials
+
+        Allow for remanufacture
+        - modular design
+        - allow disassembly of valuable or fragile parts
+
+        Allow for reuse
+        - alternative use, repurpose etc
+
+Design for Energy Efficiency
+        - Discreet quantities
+        - Auto off / standby
+        - visibility of energy usage
+        - User adjustability

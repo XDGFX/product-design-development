@@ -1,0 +1,1 @@
+Part of the design process: Product styling is rarely successful when it is added on at the end, after the functional and technical aspects of the design have been completed. Product styling cannot be done by designing the component parts in detail. You need to step-back from the detail.

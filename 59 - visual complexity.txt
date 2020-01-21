@@ -1,0 +1,10 @@
+People tend to be indifferent about products that are too simple and negative about products that are too complex. 
+
+Another thing that designers have become of aware of is that, the balance between simplicity and complexity are time-dependant.
+The initial impression of a product must be simple, whilst holding the observer’s attention: be interesting. 
+Complexity or the intricacy of a design revealed at a later stage.
+
+For many digital objects today the  aesthetic appeal of the object is making use of this time-dependant element. The first impression is of the simple physical shape. The product interface graphics provides this more complex impression of the visual appeal. Today digital graphics are part of the product styling (e.g. never show the product without the screen graphics visible in any product photos).
+
+BELOW IS FOR EXTRA REFERENCE
+    "All of these products may include elements of good styling practice: some of the basic styling rules (geometry, symmetry, rules of good continuation, golden ratios). However, exposure will determine what is considered ugly now. (often the thing that has most recently gone out of fashion is perceived as the most ugly…. Need to strongly reject one style to keep new style moving forward)."

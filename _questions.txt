@@ -109,3 +109,31 @@
 55. Discuss how the system levels interact with design process models. [3]
 
 56. Give three examples of where system models are helpful for specific design tools/methods. [6]
+
+57. Discuss and give examples of the role that product styling plays in various industries. [6]
+
+58. State and explain the three Gestalt rules of visual processing. Give examples of their use [9]
+
+59. Discuss visual complexity, time dependency and the role digital/interface graphics play in product styling. [7]
+
+60. Discuss the differences between brand identity from product predecessors and product families. [6]
+
+61.	State example tools used to set styling objectives. [3]
+
+62. Discuss the generation of form concepts and/or working with product architecture, as an alternative to working from a styling brief. [4]
+
+63. Where does styling fit as an activity within the design process? Describe normal/typical product styling practices [6]
+
+64. Outline the SCAMPER approach. Provide examples for a shower system. [14]
+
+65. What percentage of you design time should be spent on concept, embodiment, and detailed design? [1]
+
+66. Show how cost committed, cost incurred, and ease of change vary over the development period. Note the four stages. [5]
+
+67. Draw the KANO model. Provide examples for each attribute. [8]
+
+68. How do you calculate oppourtunity of a concept? [1]
+
+69. Discuss each stage of the innovation matrix. What is a sustaining innovation? [12]
+
+70. Describe the inventor's dilemma [8]
