@@ -45,7 +45,6 @@ title = subject.center(width, "-")
 
 title = title.replace(subject, bcolors.HEADER + subject + bcolors.ENDC)
 
-
 with open('_questions.txt', 'r') as q:
     questions = q.read().splitlines()
     questions = [x for x in questions if x.strip()]
@@ -55,26 +54,19 @@ with open('_motivation.txt', 'r') as m:
 
 i = len(questions)
 
-with open('_counter.txt', 'r+') as c:
-    done = c.read().splitlines()
-    if len(done) == i:  # Incase all questions done, clear file
-        c.truncate(0)
-        done = []
-
-print(" SETUP ".center(width, "-").replace("SETUP",
-                                           bcolors.HEADER + "SETUP" + bcolors.ENDC))
-
-print("")
-print("Question pool: " + str(i))
-print("")
-
 # Main loop
 while 1:
 
-    selected = random.randint(0, i)
+    with open('_counter.txt', 'r+') as c:
+        done = c.read().splitlines()
+        if len(done) == i:  # Incase all questions done, clear file
+            c.truncate(0)
+            done = []
+
+    selected = random.randint(0, i - 1)
 
     while str(selected) in done:
-        selected = random.randint(0, i)
+        selected = random.randint(0, i - 1)
 
     os.system('clear')
 

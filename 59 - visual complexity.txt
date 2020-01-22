@@ -8,3 +8,24 @@ For many digital objects today the  aesthetic appeal of the object is making use
 
 BELOW IS FOR EXTRA REFERENCE
     "All of these products may include elements of good styling practice: some of the basic styling rules (geometry, symmetry, rules of good continuation, golden ratios). However, exposure will determine what is considered ugly now. (often the thing that has most recently gone out of fashion is perceived as the most ugly…. Need to strongly reject one style to keep new style moving forward)."
+
+
+SAMPLE ANSWER
+
+There is a curve of how users respond to differeing levels of visual complexity. Low complexity tends
+to be met with indifference. High visual complexity tends to be met with an adverse reaction. There is
+a sweet spot for complexity where the most positive reaction is given.
+
+Time plays a large role in product styling; trends change. Generally, the most recent 'style' is
+percieved to be the worst visually, even when compared to much older designs. An example is that late
+90s cars are often seen as the worst looking, yet 80s and before are starting to become visually
+appealing.
+
+Time plays a role in how you feel towards the product on first approeach
+Initially, a simpler aesthetic is desired, but if more complexity is revealed later it can improve
+users reactions to the product.
+
+Digital / interface design helps to achieve this. Without the screen on, a device may appear incredibly
+geometrically simple. However, with the screen on, much greater complexity is revealed. It is for this
+reason that iPhones are never shown in adverts with their screen off - as this would over simplify the
+product leading to more indifference in the consumer.
