@@ -1,0 +1,16 @@
+# 30. What is the use of design and development process models? [5]
+
+- novelty
+    degree of uncertainty
+    helps to rationalise
+    align diverse participants
+
+- complexity
+    many teams and individuals
+    reduce chance of forgetting something
+    facilitate planning
+
+- iteration
+    allows correction of problems / implement changes
+    communication between disciplines
+    allows transfer to new team members

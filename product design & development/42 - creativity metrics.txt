@@ -1,0 +1,44 @@
+# 42. Discuss the differences between creative and routine design tasks. [4]
+
+something creative is all three of:
+
+Novelty
+    something that didn't exist before
+    - microwave oven
+    - 3D printer pen
+
+Value
+    improvement over existing product
+    - CD
+    - Electric guitar
+
+Surprise
+    allows for a patent
+    - Post-It note
+    - Flying car
+
+novel and valuable
+    - 3D NAND flash
+
+valuable and surprising
+    - QR code for websites
+
+surprising and novel
+    - biodegradable mattress
+
+note: something routine is not these things
+
+early design creativity leads to radical new designs and inventions
+later design creativity leads to big performance improvements and unexpected benefits
+
+early stage is:
+    open scope
+    an exploration
+    originality
+    flexible
+
+later stage:
+    constraints
+    iteration
+    budget
+    inflexibility

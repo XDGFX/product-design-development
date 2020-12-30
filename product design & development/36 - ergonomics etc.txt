@@ -1,0 +1,43 @@
+# 36. Discuss different types of ergonomics [8]
+
+ergonomics is ensuring a good fit between people and their objects, activities, and environments.
+    physical:
+        anatomical
+        anthropometric
+        physiological
+        bio-mechanical
+        * posture
+        * manual handling
+        * movements
+        * lighting
+        * acoustics
+    cognitive:
+        perception
+        cognition
+        memory
+        reason
+        emotion
+        * software design
+        * product interfaces
+        * human reliability and performance
+        * mental workload
+
+anthropometrics is a branch under physical ergonomics
+    * body size
+    * body shape
+    * strength
+    * working capacity
+
+
+ucd is a style of design and development which has an early focus on the user
+    aiming to design a system/product that supports the users needs rather than making
+    a product or system to which the user has to adapt. 
+    * uses questionnaires, performance data, prototypes, participative design
+
+    "Understand the user, know what they want, give it to them."
+
+interaction design is design of user interfaces
+    simple or complex
+    digital or analogue
+    easy to use interactive systems
+    human computer interaction

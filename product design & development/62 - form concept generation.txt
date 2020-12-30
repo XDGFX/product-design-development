@@ -1,0 +1,26 @@
+# 62. Discuss the generation of form concepts and/or working with product architecture, as an alternative to working from a styling brief. [4]
+
+The designer can sketch a generic model and use CAD to generate many alternative concepts
+By determining the parameters that effect the form (in the case of a glass tumbler: height and diameter) 
+we can use the computer to generate many alternatives (glass designs to hold the same volume)
+
+If you do not have  styling brief you might just pro-actively generate styling options to evaluate as part of the design process.
+
+Benefits of using CAD to generate many alternative concepts:
+Allows the designer to consider many alternatives in a short time.
+All concepts are drawn in exactly the same style, allows fair comparison
+
+As you increase the number of different parameters, the number of different designs increases exponentially. 
+
+
+This method of concept generation is also called ‘product feature permutation’ (Tjalve, 1979)
+
+Explore the arrangement of the functional elements for product form options.
+1. Feature abstraction: which features deliver the main functions
+2. Features that are inextricably linked, can be treated as one element
+3. Systematically rearrange the features of a product according to all the possible permutations
+
+- linear
+- perpendicular
+- partly embedded
+- fully embedded

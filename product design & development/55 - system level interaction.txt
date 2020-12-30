@@ -1,0 +1,16 @@
+# 55. Discuss how the system levels interact with design process models. [3]
+
+the end of each higher level design proccess activity feeds down to create the design brief
+for the lower level system task
+
+conceptual design in a lower level can challenge preconceptions made by the design brief
+and move to a higher systems level
+
+this can affect the design phase (conceptual / embodiment design)
+
+this often being the defining process of a step change of radical innovation
+
+lower levels are more detailed and constrained
+higher levels are more abstract
+
+this can be repeated at every system level

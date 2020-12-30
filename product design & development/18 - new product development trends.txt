@@ -1,0 +1,80 @@
+# 18. Explain citizen participation in firm-led product development, and how it compares with community based product development. [6]
+
+DESIGN FOR EVERYONE 
+
+bespoke production > mass production > mass customisation > personalised production
+
+mass production    mass customisation    personalised production    peer production
+buy                choose                design                     design
+                   buy                   choose                     make
+                                         buy
+
+dedicated mfg      reconfigurable mfg    on-demand mfg              on-demand mfg
+
+facilitating factors
+- increased access to manufacturing systems i.e. 3d printer, school laser cutter
+- free 3d cad software e.g. freecad, fusion360
+- social media for design and fabrication e.g. thingiverse, grabcad, turbosquid
+- improved knowledge sharing e.g. youtube, skillshare, brilliant.org, forums
+- maker culture
+
+
+CITIZEN PARTICIPATION IN FIRM LED DEVELOPMENT
+
+closed innovation to open innovation
+traditional funnel model >> open innovation funnel (external inflow and external outflow)
+
+crowdsourcing
+    part of the design process originally undertaken by employees, being outsourced to
+    a large number of individuals
+    e.g. quirky, openIDEO
+
+
+COMMUNITY BASED PRODUCT DEVELOPMENT
+
+open source hardware
+    e.g. reprap, open source ecology, aleph object lulzbot
+
+the four freedoms:
+    freedom to study
+    freedom to make
+    freedom to modify
+    freedom to redistribute
+
+open source hardware vs open source development
+
+
+                                                  process openess
+                                |    -closed design-              -open design-
+   product     -closed source-  |      conventional               crowdsourcing
+  openness                      | 
+(hardware)      -open source-   |   downloadable design            open source
+
+open source e.g.
+    linux
+
+process never stops
+
+skills of design engineer transitioning to a moderator / facilitator
+                                             searcher / reuser
+
+
+EXAMPLE ANSWER
+
+Originally, product development was limited to one-off bespoke production (i.e. tailor made shoes)
+However, at the turn of the century mass manufacturing became mainstream (model T). Limited customisation (if any) was available
+100 years later, we move more and more towards customisation of products (Mercedes A class)
+The future trend is reducing volume of manufacture, at an even more customisable level
+
+Original: Buy, dedicated mfg
+Then: Choose, Buy, configurable mfg
+Then: Design, Choose, Buy, on demand mfg
+Future: Design, Make, on demand mfg
+
+Much greater citizen involvement in the design process. This is in part due to maker culture, availability of tutorials (youtube, forums, skillshare), maker social networks (hackster.io), collaborative platofrms (github), available CAD (freecad, fusion) and available manufacturing (3dp, laser cutters)
+
+Citizen / firm led product design is a form of open source, where the design process is open. An example is crowdsourcing - where the traditional job for a designer is outsourced to a large number of individuals who may not be users of the product. They may complete design tasks for monetary value or a sense of connection and accomplishment.
+
+In this case, the designers role has shifted from a designer to a manager / organiser of various designs. They may employ 'google engineering', where partial solutions are found through research. 
+
+Furthermore, full open source hardware is also becoming commonplace; e.g. open source ecology, where the designs are available to download by anyone (see four freedoms). Full open source examples include Linux, where no one coorporation has control, and it is built of contributions of tens of thousands of individuals, and many companies.

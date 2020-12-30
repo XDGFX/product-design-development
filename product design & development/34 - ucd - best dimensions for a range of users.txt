@@ -1,0 +1,21 @@
+# 34. How can you ensure you are designing your product to fit the widest range of users? [10]
+
+1. understand the use of the product
+    emergency situations where all users must fit
+    costs etc
+
+2. anthropometrics of user population (target market)
+    how do these measurements set constriants
+    population distribution - bell curve
+    key constraint criteria (e.g. reach, strength)
+
+Design for:
+1. Limiting user
+2. Common fit
+3. Allow adjustment
+
+Methods of analysis
+- Fitting trial (test for greatest number of acceptable sizes, or set yourself to too high / too low)
+- Methods of limits; anthropometric data as a real people substitute 
+- Body link diagrams, how human movements are constrained
+- Simulation of digital human models

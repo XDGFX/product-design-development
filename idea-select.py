@@ -1,26 +1,58 @@
 #! /usr/bin/env python3
+"""
+quizmaster.py
 
+Test your knowledge using questions saved in `[subject]/`.
+Designed to help with exam revision.
+Probably only works on macOS and Linux.
 
+Question format:
+[subject]/[question_title].txt
+
+# [question: one line]
+[answer: all other lines]
+
+XDGFX, 2019
+"""
+
+import argparse
 import os
 import random
-import subprocess
 import re
-import textwrap
 import readline
+import subprocess
 import sys
+import textwrap
 
 
-def wrapPrint(text, width):
+def wrap_print(text, width):
+    """
+    Format text to a certain width by wrapping the words.
+    """
     text = '\n'.join(['\n'.join(textwrap.wrap(line, width,
                                               break_long_words=False, replace_whitespace=False))
                       for line in text.splitlines()])
     print(text)
 
 
-def clearLine():
+def clear_line():
+    """
+    Clear the current line in the terminal.
+    """
     sys.stdout.write("\033[F")
     print(" " * width)
     sys.stdout.write("\033[F")
+
+
+def safe_filename(input_filename):
+    """
+    Make a file name that only contains safe charaters
+    """
+    safechars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 -_."
+    filename = "".join(
+        [character for character in input_filename if character in safechars])
+    filename = filename.replace(" ", "_")
+    return filename
 
 
 class bcolors:
@@ -34,45 +66,72 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 
+# Get subject to test on
+parser = argparse.ArgumentParser(
+    description="quizzmaster - test yourself on different topics")
+parser.add_argument(
+    'subject', help='the subject (name of the folder) to ask questions from')
+
+args = parser.parse_args()
+subject = f" {args.subject.upper()} "
+
 readline.parse_and_bind('set horizontal-scroll-mode on')
 readline.parse_and_bind('set history-size 0')
 
-subject = ' PRODUCT DESIGN & DEVELOPMENT '
-
+# Check width of terminal
 _, width = subprocess.check_output(['stty', 'size']).decode().split()
 width = int(width)
 title = subject.center(width, "-")
 
 title = title.replace(subject, bcolors.HEADER + subject + bcolors.ENDC)
 
-with open('_questions.txt', 'r') as q:
-    questions = q.read().splitlines()
-    questions = [x for x in questions if x.strip()]
+question_files = [name for name in os.listdir(
+    args.subject) if os.path.isfile(os.path.join(args.subject, name))]
+i = len(question_files)
 
-with open('_motivation.txt', 'r') as m:
+with open('motivation.txt', 'r') as m:
     motivations = m.read().splitlines()
 
-i = len(questions)
 
 # Main loop
-while 1:
+while True:
+    # Check which questions have already been asked
+    counter_file = f'.counter_{safe_filename(args.subject)}'
+    try:
+        with open(counter_file, 'r+') as f:
+            done = f.read().splitlines()
+            if len(done) == i:  # Incase all questions done, clear file
+                f.truncate(0)
+                done = []
 
-    with open('_counter.txt', 'r+') as c:
-        done = c.read().splitlines()
-        if len(done) == i:  # Incase all questions done, clear file
-            c.truncate(0)
-            done = []
+    # Program has not yet been run, need to create a counter file
+    except FileNotFoundError:
+        open(counter_file, 'w')
+        done = []
 
     selected = random.randint(0, i - 1)
 
-    while str(selected) in done:
+    question_filename = os.path.join(
+        args.subject, os.listdir(args.subject)[selected])
+
+    # Reselect question if already completed
+    while question_filename in done:
         selected = random.randint(0, i - 1)
+        question_filename = os.listdir(args.subject)[selected]
+
+    question_body = open(question_filename, "r").readlines()
+
+    question = [line for line in question_body if line.startswith("#")][0]
+    question_body.remove(question)
+    if not question_body[0].strip():
+        del question_body[0]
+    answer = "".join(question_body)
 
     os.system('clear')
 
     print(title)
     print("")
-    wrapPrint(questions[selected], width)
+    wrap_print(question, width)
     print("")
 
     print("Type your answer below:")
@@ -82,9 +141,9 @@ while 1:
     while True:
         line = input(bcolors.OKBLUE + "> " + bcolors.ENDC)
 
-        clearLine()
+        clear_line()
 
-        wrapPrint(bcolors.OKBLUE + "> " + bcolors.ENDC + line, width)
+        wrap_print(bcolors.OKBLUE + "> " + bcolors.ENDC + line, width)
 
         if line:
             lines.append(line)
@@ -93,9 +152,9 @@ while 1:
 
             line = input(bcolors.WARNING + "> " + bcolors.ENDC)
 
-            clearLine()
+            clear_line()
 
-            wrapPrint(bcolors.OKBLUE + "> " + bcolors.ENDC + line, width)
+            wrap_print(bcolors.OKBLUE + "> " + bcolors.ENDC + line, width)
 
             if line:
                 lines.append(line)
@@ -108,41 +167,42 @@ while 1:
     print(" QUESTION ".center(width, "-").replace("QUESTION",
                                                   bcolors.HEADER + "QUESTION" + bcolors.ENDC))
     print("")
-    wrapPrint(questions[selected], width)
+    wrap_print(question, width)
     print("")
 
     print(" YOUR ANSWER ".center(width, "-").replace("YOUR ANSWER",
                                                      bcolors.HEADER + "YOUR ANSWER" + bcolors.ENDC))
     print("")
-    wrapPrint(text, width)
+    wrap_print(text, width)
     print("")
 
     print(" NOTES ".center(width, "-").replace("NOTES",
                                                bcolors.HEADER + "NOTES" + bcolors.ENDC))
     print("")
 
-    for _, _, files in os.walk("."):
-        for file in files:
-            identifier = re.search("^(\\d.+?-)", file)
+    # for _, _, files in os.walk(args.subject):
+    #     for question in files:
+    #         identifier = re.search("^(\\d.+?-)", question)
 
-            if identifier:
+    #         if identifier:
+    #             filename = re.search(
+    #                 "(\\b" + str(selected + 1) + " )", identifier.group(1))
 
-                filename = re.search(
-                    "(\\b" + str(selected + 1) + " )", identifier.group(1))
-
-                if filename:
-                    with open(file, 'r') as f:
-                        wrapPrint(f.read(), width)
+    #             if filename:
+    #                 with open(question, 'r') as f:
+    #                     wrap_print(f.read(), width)
+    wrap_print(answer, width)
 
     print("")
     print("-" * width)
     print("")
 
-    wrapPrint(bcolors.OKGREEN + random.choice(motivations) + bcolors.ENDC, width)
+    wrap_print(bcolors.OKGREEN + random.choice(motivations) +
+               bcolors.ENDC, width)
 
     print("")
 
-    with open('_counter.txt', 'a+') as c:
-        c.write(str(selected) + "\n")
+    with open(counter_file, 'a+') as f:
+        f.write(question_filename + "\n")
 
     input(bcolors.OKBLUE + "Press enter to continue... " + bcolors.ENDC)

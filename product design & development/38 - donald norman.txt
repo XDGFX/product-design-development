@@ -1,0 +1,26 @@
+# 38. Discuss the general contribution Donald Norman made to the user centred design approach. [4]
+
+The ultimate product can powerfully do its job whilst being:
+	Simple to use
+	Easy to understand
+	Safe to use
+
+You have failed to design a user-centred product if you need to resort to:
+	labels
+	instruction manuals
+	training courses
+
+During the use of any product, the user should be able to:
+1. Figure out what to do
+2. Tell what is going on
+
+---
+
+‘warning labels and large instruction manuals are signs of failure, attempts to patch up
+problems that should have been avoided by proper design in the first place’ (Norman, 1998)
+
+‘There is plenty of evidence to show that even the best-trained and best-motivated
+designers go wrong when using their instinct instead of testing their ideas on
+actual users.’ (Norman,1998)
+	e.g. Dyson washing machine
+		 Sinclair C5

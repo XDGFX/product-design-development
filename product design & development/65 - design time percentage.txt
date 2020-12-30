@@ -1,0 +1,5 @@
+# 65. What percentage of you design time should be spent on concept, embodiment, and detailed design? [1]
+
+Concept design: <1%
+Embodiment design: 15%
+Detailed design: 80%

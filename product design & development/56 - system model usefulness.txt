@@ -1,0 +1,10 @@
+# 56. Give three examples of where system models are helpful for specific design tools/methods. [6]
+
+eco design
+    determine limits of system
+
+failure mode and effects analysis
+    possible sequence of events
+
+styling
+    styling tools driven by exploring product architecture (i.e. modular decomposition Tjalve feature permutations)

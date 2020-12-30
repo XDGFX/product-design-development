@@ -1,0 +1,8 @@
+# 21. Why is less better? [4]
+
+in a closed system, entropy always increases
+
+attempting to return to a previous state will only approximate the way it was
+as a result, entropy must also increase elsewhere
+
+minimise environmental impact and maximise social or economic improvement

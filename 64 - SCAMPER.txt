@@ -1,7 +1,0 @@
-S ubstitute
-C ombine
-A dapt
-M aximise / Minimise
-P ut to another use
-E liminate
-R everse

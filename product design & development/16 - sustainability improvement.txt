@@ -1,0 +1,31 @@
+# 16. State ways your business could improve it's sustainability [5]
+
+different discussion points:
+
+entropy addition limitation
+increase functional unit
+    quality or usefullness / quantity
+    note: potential quality vs effective quality
+there is no sustainable product, only better or worse
+consider sustainability earlier in the development process is better
+
+any form of assessment e.g.
+    LCA
+    MECO - Materials, Energy, Chemicals, Other
+    MIPS - Material Input Per unit of Service
+
+adherance to regulatory requirements and ecolabels e.g.
+    volunary - energystar
+    manditory - RoHS
+    specific - 80+
+
+Design for Environment guidelines e.g.
+    design for disposal (e.o.l)
+        reuse
+        remanufacture
+        recycle
+    design for energy efficiency (use)
+        automatic / manual adjustability
+        feedback on resource consumption
+        discreet quantities prevent over-use
+        auto power off

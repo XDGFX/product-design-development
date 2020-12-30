@@ -1,3 +1,0 @@
-Concept design: <1%
-Embodiment design: 15%
-Detailed design: 80%

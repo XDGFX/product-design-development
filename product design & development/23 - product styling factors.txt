@@ -1,0 +1,11 @@
+# 23. What factors determine product styling? [3]
+
+- gestalt rules of visual perception; immediate visual impact
+    - rules of visual perception
+        - proximity
+        - similarity
+        - good continuation
+    - symmetry
+    - geometric form
+- specific aspects of our visual processing, fear response, golden ratios, faces
+- social, cultural, and business factors

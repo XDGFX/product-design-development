@@ -1,0 +1,12 @@
+# 7. How would you apply a LCA to determine environmental impact? How can you use it to reduce your impact? What are advantages / limitations? [10]
+
+Life cycle assessments are:
+- rigerous
+- detailed
+- time consuming
+- must be finished to be of use
+
+a. define the boundaries of the system
+b. create an inventory of all elementry flows
+c. weight the impact of each flow
+d. identify hot spots

@@ -1,0 +1,13 @@
+# 53. Give some examples of different ways of describing a creative process. [4]
+
+preperation
+    explore problem dimensions
+
+incubation
+    working in unconscious mind
+
+illumination
+    creative idea burst in conscious mind
+
+evaluation
+    idea consciously evaluated

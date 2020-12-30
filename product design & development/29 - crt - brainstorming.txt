@@ -1,0 +1,25 @@
+# 29. Describe a method of idea generation within a team, and discuss best practices and common mistakes with the method. [10]
+
+brainstorming is a group activity
+but people are more creative on their own
+you need diverse teams, not necessarily the best people (experts)
+give time to develop initial ideas, then discuss
+collaborative environment - challenge ideas but don't judge
+
+good brainstorming:
+    - many ideas
+    - no criticism
+    - the room remembers
+    - build off eachothers ideas
+    - stretch mental muscles first
+    - have a facilitator
+    - sharpen the focus
+    - physical prototypes
+    - practice
+
+bad brainstorming:
+    - boss speaks first
+    - take turns to speak
+    - experts only
+    - idea fixation
+    - exhaustive notes

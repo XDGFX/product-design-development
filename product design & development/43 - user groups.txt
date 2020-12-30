@@ -1,0 +1,13 @@
+# 43. Discuss the different stages of user group understanding in interaction design. [6]
+
+novice
+    new to the product
+    shows learaning curve
+    requires prompting, hints
+    
+intermediate
+    will forget how to do stuff
+    requires reminding
+
+advanced
+    shows shortcuts

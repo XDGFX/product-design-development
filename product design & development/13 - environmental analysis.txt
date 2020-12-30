@@ -1,0 +1,14 @@
+# 13. Give me three methods of assessing the environmental impact of a product. Explain the most suitable for a product in the conceptual design phase [6]
+
+LCA
+MECO
+MIPS
+
+MECO or MIPS most suitable
+
+MECO - Materials, Energy, Chemicals, Other
+Matrix which sums up and determines where the major impact areas are
+Fast, but imprecise
+
+MIPS - Material Input Per unit of Service (The ecological rucksack)
+Classify impact by weight of material usage in vs useful out

@@ -1,0 +1,16 @@
+# 26. Explain common pitfalls when attempting to lead your team to find a new product opportunity. [8]
+
+oppourtunity cost
+    there's no such thing as a free lunch
+
+shiny object syndrome
+    swamps the team with projects
+
+gut feeling
+    limits morale
+
+support request
+    desirable > easy to use
+
+me-too features
+    differenciate not copy, makes jumping ship easy

@@ -1,0 +1,20 @@
+# 20. Define pollution, it's types, and the most common sources. [3, 11 (most common)]
+
+pollution is :
+    the introduction of physical (e.g. radiation, chemical substances)
+    or biological (e.g. manure, seeds) agents into an ecosystem to an amount it cannot
+    be absorbed, hence leading to its adverse disruption 
+
+types of pollution are:
+    natural / man made
+    accidental / chronic
+    local / dispersed
+
+most common sources are: 
+    eutrophication
+    acid rain
+    ozone hole
+    smog
+    global warming
+    light pollution
+    land use

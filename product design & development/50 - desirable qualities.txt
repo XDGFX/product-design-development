@@ -1,0 +1,19 @@
+# 50. State three desirable qualities for new products (from the consumers perspective). State three methods of improving one of them. [6]
+
+good cheap fast
+(pick two)
+
+cheap:
+    remove functionality (minimum viable product)
+    increase economies of scale
+    outsourcing
+
+good:
+    consider VoC
+    apply new technologies (well)
+    optimising existing product (4 pillars of innovation)
+
+fast:
+    reduce fuzzy front end
+    crossfunctional colocational teams
+    reduce overload (2 projects)

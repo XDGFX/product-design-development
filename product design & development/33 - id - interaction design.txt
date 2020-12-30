@@ -1,0 +1,14 @@
+# 33. Define interaction design. [3]
+
+designing systems in which users interface with products or systems
+
+human/computer interaction is one aspect
+
+Methods come from design psychology, software engineering, systems engineering
+    Software experiments are easy
+
+examples:
+Nest thermostat
+Computer mouse
+
+// Closely associated with user interface design

@@ -1,0 +1,24 @@
+# 6. You have been tasked a design task for which you have limited experience, and told to stick to the brief. Explain two possible problems with this [8]
+
+used to solve wicked problems
+
+design from experience - i.e. analogies, previous iterations, nature
+
+associating something old with something new
+reminded of the previously solved problem because of relevance to the new problem
+e.g. 18m bridge from experience with 15m bridge
+
+New problem
+     V
+   Recall  <---  $CASE BASE$
+     |                ^
+     V                |
+   Adapt  --->  New solution
+
+   Case base built from practice or learning
+
+question the brief
+
+solving ill defined problems is a co-evolution of the brief and the solution
+
+waterfall model vs co-evolution

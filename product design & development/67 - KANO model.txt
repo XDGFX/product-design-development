@@ -1,0 +1,5 @@
+# 67. Draw the KANO model. Provide examples for each attribute. [8]
+
+see https://cdn.baymard.com/blog/kano-model-full-res.png
+
+Over time, delight moves to performance, moves to basic

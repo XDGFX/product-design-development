@@ -1,0 +1,16 @@
+# 58. State and explain the three Gestalt rules of visual processing. Give examples of their use [9]
+
+All about patterns
+
+a. We are programmed to extract visual patterns:
+		rule of proximity
+		rule of similarity (concerns: shape, colour, size)
+		rule of good continuation
+b. Symmetry rule: we find it very easy to detect symmetry (or incomplete symmetry) even when viewing an object from an angle
+c. Geometric form rule: we can detect simple geometric forms more easily than complex geometry forms
+
+    - Visual patterns e.g. mobile device buttons
+    - Simple geometric forms tend to be symmentrical; the two are related
+
+Arc of positive feedback on visual complexity; starts indifferent, rises to a peak, then falls to distaste 
+    However people tend to be indifferent about products that are too simple and negative about products that are too complex. 

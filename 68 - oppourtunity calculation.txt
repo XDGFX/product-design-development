@@ -1,1 +1,0 @@
-oppourtunity = importance + (importance - satisfaction)
