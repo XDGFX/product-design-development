@@ -73,7 +73,7 @@ parser.add_argument(
     'subject', help='the subject (name of the folder) to ask questions from')
 
 args = parser.parse_args()
-subject = f" {args.subject.upper()} "
+subject = f" {args.subject.upper().rstrip('/')} "
 
 readline.parse_and_bind('set horizontal-scroll-mode on')
 readline.parse_and_bind('set history-size 0')
@@ -117,7 +117,8 @@ while True:
     # Reselect question if already completed
     while question_filename in done:
         selected = random.randint(0, i - 1)
-        question_filename = os.listdir(args.subject)[selected]
+        question_filename = os.path.join(
+            args.subject, os.listdir(args.subject)[selected])
 
     question_body = open(question_filename, "r").readlines()
 
