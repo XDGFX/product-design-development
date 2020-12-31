@@ -1,0 +1,7 @@
+# How does the eye respond to different light levels with black and white, and colour vision? What are the names for these responses? [5]
+
+Black and white: scotopic vision. More sensitive to light but responds over a shorter range. However, the iris can adjust to ensure the correct amount of light is getting in the eye.
+
+Colour: photopic vision. Less sensitive to light but has a high range of subjective brightness.
+
+Rods (b&w) have higher response at most wavelengths; therefore when it's dark we tend to see in black and white rather than colour.

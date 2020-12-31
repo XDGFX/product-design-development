@@ -1,0 +1,11 @@
+# Describe the monochrome visual model. What are the weights? [6]
+
+- Receptors (rods for b&w) go into
+- Log transfer function into
+- Weights
+- Into a sum
+- Into a single neural signal for multiple rods (weighted sum of contributions from spatially adjacent receptors)
+
+Weights showing impulse response of the eye:
+Like a mexican hat - e.g. peak in the middle then negative at 2 and 3 receptors to each side, then oscillations
+Helps to perform edge enhancement

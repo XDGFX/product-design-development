@@ -1,0 +1,6 @@
+# What range of intensity does the human visual system respond to? What are the limits called? [3]
+
+10^10 range
+
+Lower limit: scotopic threshold (too dark)
+Upper limit: glare limit (too bright)

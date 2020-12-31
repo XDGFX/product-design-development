@@ -1,0 +1,7 @@
+# Describe the colour visual model. [5]
+
+Red green and blue receptors (cone) into
+Optical response of the eye into
+log response into
+a bit of differencing with rods in local area
+into separate neural signals

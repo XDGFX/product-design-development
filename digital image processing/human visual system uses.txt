@@ -1,0 +1,4 @@
+# Why do we want to learn about the human visual system in the context of digital image processing? [4]
+
+- The processed images are going to be viewed by humans
+- For developing biologically inspired image systems (for humans and animals)

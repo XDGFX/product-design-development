@@ -1,0 +1,6 @@
+# What does the human eye do at edges? What is the effect called? [4]
+
+Mach band effect - edge enhancement.
+The response overshoots at changes in brightness; instead of a clean step response it overshoots and undershoots at the edges.
+
+This enhances the edge, making it clearer for us to distinguish different objects.

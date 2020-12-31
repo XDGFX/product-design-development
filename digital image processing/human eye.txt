@@ -1,0 +1,20 @@
+# What kinds of processing happens to interpret visual information from your eyes? What are the main parts of your eye? [8]
+
+Some pre-processing happens at the back of the eye
+Low, medium, and high level processing happens in the brain. We know where but don't fully understand how yet.
+
+Two eyes alow stereo vision
+
+Cornea protects eye at the front
+Iris is a diaphram which controls the amount of light going into the eye
+Lens is flexible and does focussing
+Fovea is the greatest density of cones, sharpest vision
+Choroid is the blood supply
+Sclera is protective coating
+
+Two types of receptors: rods (100 million, black and white, long and thin) and cones (6.5 million, short and fatm short and fat)
+
+Rods share neural connections
+Cones have single neural connections; they are more important
+
+Three types of cones: green, red, and blue
