@@ -1,0 +1,9 @@
+# What are the components of a framegrabber? [5]
+
+Input to signal conditioning to
+ADC (analogue digital converter) to
+Look up table to
+Image memory
+
+Computer interface goes to image memory and control
+Control goes to ADC

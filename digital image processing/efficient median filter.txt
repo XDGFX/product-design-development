@@ -1,0 +1,10 @@
+# Describe an efficient median algoithm. [5]
+
+Use a histogram sort, instead of calculating the new median each time
+- Make the histogram using the values within the filter window
+- Count from lowest value to highest value until you get to half the window size (e.g. 5th value for 9 values). Otherwise, the 5th value in the histogram
+- For next window, just remove all histogram entries for left column, add in new values from right column
+- Now: calculate less than median (LTM)
+    - For removed values, if they are below the median add 1 to LTM
+    - For added values, if they are below the median subtract 1 from LTM
+    - LTM value will be the shift to get to the new median

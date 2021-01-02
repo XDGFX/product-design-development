@@ -1,0 +1,3 @@
+# What is the slowest part of using a median filter? [1]
+
+The sorting of values, slower than mean

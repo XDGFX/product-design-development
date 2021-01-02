@@ -1,0 +1,10 @@
+# What is the rotation matrix for homogeneous coordinates? [3]
+
+x_transformed = R(θ) * x_homogeneous
+where R(θ) =
+[
+    cos(θ)  sin(θ)  0   0
+    -sin(θ) cos(θ)  0   0
+    0       0       1   0
+    0       0       0   1
+]

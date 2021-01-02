@@ -1,0 +1,9 @@
+# If you want to perform multiple transformations on a homogeneous image, how could you do it? [2]
+
+Composite transform; do multiple operations at once
+
+e.g.
+x_transformed = P(f) * R(θ) * T(d) * x_homogeneous
+
+The order is important; in this case translation is first, then rotation, then perspective change.
+Using a different order will produce a different result.

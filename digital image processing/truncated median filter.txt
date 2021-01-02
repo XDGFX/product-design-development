@@ -1,0 +1,3 @@
+# What is the truncated median filter attempting to approximate? Why? [1]
+
+Mode, because there are generally too few values in the window for a true mode

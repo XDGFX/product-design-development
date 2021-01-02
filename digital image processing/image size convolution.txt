@@ -1,0 +1,4 @@
+# What are two issues with some sizes of image, when using convolution filters? [2]
+
+- Filter size should be odd, so there is a middle point to apply the value to
+- Image edges may overflow the filter; e.g. use padding (zero padding, mirror etc)

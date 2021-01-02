@@ -1,0 +1,13 @@
+# What is the perspective transform matrix for homogeneous coordinates? [4]
+
+x_transformed = P(f) * x_homogeneous
+
+where P(f) = 
+[
+    1   0   0   0;
+    0   1   0   0;
+    0   0   1   0;
+    0   0   1/f  -1
+]
+
+as f > inf: P(f) > identity matrix; e.g. orthographic projection

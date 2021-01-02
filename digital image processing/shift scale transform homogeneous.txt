@@ -1,0 +1,21 @@
+# What are the matrices for translation and scale transformations on homogeneous coordinates? [6]
+
+Shift:
+x_transformed = T(d) * x_homogeneous
+where T(d) =
+[
+    1   0   0   -dx
+    0   1   0   -dy
+    0   0   1   -dz
+    0   0   0   1
+]
+
+Scale:
+x_transformed = S(s) * x_homogeneous
+where S(s) = 
+[
+    s   0   0   0
+    0   s   0   0
+    0   0   s   0
+    0   0   0   1
+]

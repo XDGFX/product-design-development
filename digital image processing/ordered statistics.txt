@@ -1,0 +1,11 @@
+# Describe an ordered statistics filter. What is the point of the denominator? [4]
+
+output = (SUM(weight * x)) / (SUM(weight)) for all values of x inside window
+
+example weights:
+0   0   1   0   0   0   0   0   0
+selects third smallest value
+values do not need to be binary but they often are!
+
+Dividing by the mean does NOT remove DC distortion, but it helps to reduce it
+

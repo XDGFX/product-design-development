@@ -1,0 +1,6 @@
+# What is a common issue with high / lowpass filters in the frequency domain? How can you help to avoid it? [3]
+
+Ringing;
+When there is overshoot and undershoot at sharp edges, e.g. when the image goes from black to white and there are bands surrounding
+
+Avoid by not having a sharp filter cutoff, instead smooth the transition (e.g. butterworth low pass, or gaussian high pass filter rather than sharp cutoff filter)

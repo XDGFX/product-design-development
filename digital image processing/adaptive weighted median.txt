@@ -1,0 +1,18 @@
+# What is an adaptive weighted median filter? What do weights depend on? [4]
+
+Weights depend on:
+- Image statistics
+- Position in mask (d)
+
+w(i, j) = [W(K+1, K+1) - (c*d*std) / x_mean]
+
+where:
+w is weight at position i, j
+W is the central weight
+c is a constant
+d is the distrance from the centre of the mask
+    [
+        sqr2    1       sqr2
+        1       0       1
+        sqr2    1       sqr2
+    ]

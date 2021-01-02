@@ -1,0 +1,5 @@
+# What are three different frequency domain filters? Define them. [3]
+
+- High pass (only lets high frequency through)
+- Low pass (only lets low frequency through)
+- Band pass (only lets a specific frequency band through)

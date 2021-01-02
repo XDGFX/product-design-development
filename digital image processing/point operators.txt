@@ -1,0 +1,8 @@
+# Give some examples of image point operators [4]
+
+- Negative (e.g. point is 255 - f(x, y))
+- Log compression
+- Grey level slicing
+- Bit plane slicing
+- Histogram normalisation (stretch over full range)
+- Histogram equalisation (flatten histogram)

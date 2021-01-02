@@ -1,0 +1,8 @@
+# What are the two components of the simple image model? What are their range of values? [4]
+
+Image made up of f(x, y)    0 < f < inf
+Two components:
+- Illumination i(x, y)      0 < i < inf
+- Reflectance r(x, y)       0 < r < 1
+
+f(x, y) = i(x, y) * r(x, y)

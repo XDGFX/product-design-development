@@ -1,0 +1,4 @@
+# What two processes can produce errors when converting real life to an image (simple image model) [2]
+
+Quantisation of colours (e.g. 0-255, number of greyscale levels)
+Sampling (pixels, spatial resolution)

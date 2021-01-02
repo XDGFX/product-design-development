@@ -1,0 +1,15 @@
+# What two types of filters are there? Give some examples of each. [5]
+
+Linear:
+- Smoothing (e.g. mean)
+- Edge detection
+* Can F.T.
+
+Nonlinear:
+- Rank / order statistics (e.g. median)
+- Adaptive linear (function depends on statistics of input values)
+* No F.T.
+
+Filter masks can be different sizes and shapes
+Linear filters can separate the mask in x and y direction (e.g. a cross into two separate rectangles)
+Might be adaptively changing shape

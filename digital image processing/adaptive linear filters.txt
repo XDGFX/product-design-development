@@ -1,0 +1,13 @@
+# What is the aim for adaptive linear filters? Explain an example adaptive linear filter. [4]
+
+Improve the performance of edges over standard linear filters; controls the aggressiveness of the filter.
+
+Unsharp mask
+x_out = x_mean + k(x - x_mean)
+
+k varies between merging the original value and the mean value within the mask window.
+k is varied based on controlled statistics within the window, e.g. the signal to noise ratio SNR
+
+SNR = x_mean / standard deviation
+
+Has the effect to minimise blurring when there are lots of changes in the image (e.g. a edge) and maximise blurring with low s.d., where there are no edges.

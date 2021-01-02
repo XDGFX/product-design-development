@@ -1,0 +1,3 @@
+# What frequency is most of the power of an image contained? [1]
+
+Lowest frequency

@@ -1,0 +1,7 @@
+# What are the elements of a simple digital image processing system? Give examples. [6]
+
+- Image acquisition (CCD array, SAR, IR, ultrasound)
+- Processor (General purpose PC, graphics card, dedicated hardware)
+- Display (Monitor, printer)
+- Storage (Short term frame buffer, medium term ssd or hdd, long term archive tape)
+- Communications (various compression may be needed)

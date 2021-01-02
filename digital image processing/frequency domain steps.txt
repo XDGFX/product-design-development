@@ -1,0 +1,9 @@
+# What are the main steps for performing frequency domain filtering operations? [4]
+
+Input image >
+Pre-processing (e.g. pad image) >
+Fourier transform (will be complex) >
+Filter function >
+Inverse fourier transform (still complex output) >
+Post processing (might want to take the real part, convert to unsigned int) >
+Filtered image

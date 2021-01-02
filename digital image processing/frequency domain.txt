@@ -1,0 +1,4 @@
+# What are the two main benefits of linear filters in the frequency domain? [3]
+
+- Improved operation and speed (e.g. multiplication in roman numerals is hard, in base 10 is easy)
+- Show features not apparent in original domain

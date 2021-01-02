@@ -1,0 +1,4 @@
+# What is DC distortion? [1]
+
+A constant amount of distortion, e.g. as a result of a convolution filter which does not average to a value of 1.
+Makes the image brighter or darker (constant error)
