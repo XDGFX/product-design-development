@@ -1,0 +1,7 @@
+# What is one benefit sequential filters (e.g. alternating sequential filter sieves) have over linear filters? [2]
+
+They do not move the image spatially with different filter sizes.
+
+E.g. an image with two dots when blurred with a mean filter will move the position of the dots outwards, until they become one single blob
+
+Sieving will not move the edges of the dots at all, the colour will just blend as size increases (in the case of grayscale sieving).

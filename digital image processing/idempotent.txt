@@ -1,0 +1,5 @@
+# What is an idempotent filter? [2]
+
+A filter which can be applied to an image once and cause changes, but any further times it's applied the image no longer changes.
+
+Can only modify the image on the first pass. e.g. an ideal low pass filter is idempotent.

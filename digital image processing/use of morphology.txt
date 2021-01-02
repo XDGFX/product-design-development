@@ -1,0 +1,14 @@
+# What are some uses of mathematical morphology? [4]
+
+Image pre processing
+- Noise reduction
+- Filtering
+- Simple feature extraction (make structuring element same as object)
+
+Enhancing object structure
+- Thinning / thickening
+- Find skeletons
+
+Quantitative object description
+- Area
+- Perimiter

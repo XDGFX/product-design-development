@@ -1,0 +1,8 @@
+# Explain the difference between erosion, dilation, opening, and closing. [4]
+
+Erosion: like an AND; removes single values
+Dilation: like an OR; removes single zeros
+Opening: Erosion first, then dilation
+Closing: Dilation first, then erosion
+
+Opening and closing operations are idempotent
