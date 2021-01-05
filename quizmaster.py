@@ -203,7 +203,9 @@ while True:
 
     print("")
 
-    with open(counter_file, 'a+') as f:
-        f.write(question_filename + "\n")
+    response = input(
+        bcolors.OKBLUE + "Press enter to continue... [x] to put question back into pool " + bcolors.ENDC)
 
-    input(bcolors.OKBLUE + "Press enter to continue... " + bcolors.ENDC)
+    if response != 'x':
+        with open(counter_file, 'a+') as f:
+            f.write(question_filename + "\n")

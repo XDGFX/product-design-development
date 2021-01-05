@@ -1,3 +1,20 @@
 # What is a finite impulse response? [3]
 
-I dunno might have to google
+A FIR filter.
+When subject to an impulse as an input:
+ 1       .
+         |
+         |
+         |
+ 0  .....|..........
+        t=0
+
+The output will eventually settle back to zero
+ 1       .
+         |.
+         ||.
+         |||..
+ 0  .....|||||......
+        t=0  t<inf
+
+An infinite impulse response will response infinitely, likely through some kind of feedback.
