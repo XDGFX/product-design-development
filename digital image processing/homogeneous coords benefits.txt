@@ -1,4 +1,4 @@
-# What are the benefits of homogeneous coordinates? How do you move to them from fixed image coordinates? [6]
+# What are the benefits of homogeneous coordinates? How do you move to them from fixed image coordinates? [3]
 
 Provide a linear and general coordinate system where image transformations are matrix operations (instead of different mathematical functions)
 

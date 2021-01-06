@@ -1,3 +1,4 @@
 # What does trichromatic mean? [1]
 
 Three colours; e.g. trichromatic vision system sees red, green, and blue
+Humans are more sensitive to green light than blue and red light therefore camreas and monitors often have more green light sensors and emitters to account for this.

@@ -101,6 +101,11 @@ while True:
         with open(counter_file, 'r+') as f:
             done = f.read().splitlines()
             if len(done) == i:  # Incase all questions done, clear file
+                msg = " ALL QUESTIONS COMPLETE! "
+                msg_print = msg.center(width, "-")
+                msg_print = msg_print.replace(
+                    msg, bcolors.HEADER + msg + bcolors.ENDC)
+                input("Press enter to restart... ")
                 f.truncate(0)
                 done = []
 
@@ -202,10 +207,36 @@ while True:
                bcolors.ENDC, width)
 
     print("")
+    print(bcolors.OKBLUE +
+          "[↪] to continue.\n[x] to put question back into pool.\n[e] to edit the question file.\n[a] to add a new question.\n[q] to quit.\n" + bcolors.ENDC)
 
-    response = input(
-        bcolors.OKBLUE + "Press enter to continue... [x] to put question back into pool " + bcolors.ENDC)
+    while True:
+        response = input(bcolors.OKBLUE + "> " + bcolors.ENDC)
 
-    if response != 'x':
-        with open(counter_file, 'a+') as f:
-            f.write(question_filename + "\n")
+        if response == "e":
+            clear_line()
+            subprocess.call(["vim", question_filename])
+
+        elif response == "a":
+            clear_line()
+            filename = os.path.join(args.subject, input("Filename: "))
+
+            while os.path.isfile(filename):
+                filename = os.path.join(args.subject, input(
+                    "File already exists! Enter new filename: "))
+
+            subprocess.call(["vim", filename])
+
+        elif response == "x":
+            break
+
+        elif response == "q":
+            raise SystemExit
+
+        elif response == "":
+            with open(counter_file, 'a+') as f:
+                f.write(question_filename + "\n")
+            break
+
+        else:
+            clear_line()
