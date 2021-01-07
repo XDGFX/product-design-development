@@ -100,7 +100,7 @@ while True:
     try:
         with open(counter_file, 'r+') as f:
             done = f.read().splitlines()
-            if len(done) == i:  # Incase all questions done, clear file
+            if len(done) == i:  # In case all questions done, clear file
                 msg = " ALL QUESTIONS COMPLETE! "
                 msg_print = msg.center(width, "-")
                 msg_print = msg_print.replace(
@@ -135,7 +135,8 @@ while True:
 
     os.system('clear')
 
-    print(title)
+    question_counter = f"[{len(done)}/{i}]"
+    print(f"{question_counter} {title[(len(question_counter)+1):]}")
     print("")
     wrap_print(question, width)
     print("")

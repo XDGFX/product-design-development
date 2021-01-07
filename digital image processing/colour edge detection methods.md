@@ -1,4 +1,4 @@
-# Describe the overall system processes for three different colour edge detection methods. [3]
+# Describe the overall system processes for three different colour edge detection methods. [5]
 
 Main method:
 

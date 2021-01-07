@@ -16,3 +16,5 @@ d is the distrance from the centre of the mask
         1       0       1
         sqr2    1       sqr2
     ]
+
+Note: Weights are the number of times the value appears in the rank; it is *not multiplied*!

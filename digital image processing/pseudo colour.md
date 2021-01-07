@@ -3,10 +3,10 @@
 Grey level slicing:
 Different grey levels go to different colours
 
-Grey level to colour transformations:
+Single grey level to colour transformations:
 The grey level goes to three independent transforms (red, green, blue), which then output in colour
 
-Multiple grayscale image:
+Multiple gray level to colour transformations:
 Different grey levels transform differently with separate transformations, then combined into three channels with additional processing (e.g. colour balancing)
 
 Frequency filtering approach:
