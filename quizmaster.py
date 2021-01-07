@@ -100,11 +100,14 @@ while True:
     try:
         with open(counter_file, 'r+') as f:
             done = f.read().splitlines()
-            if len(done) == i:  # In case all questions done, clear file
+            if len(done) >= i:  # In case all questions done, clear file
                 msg = " ALL QUESTIONS COMPLETE! "
                 msg_print = msg.center(width, "-")
                 msg_print = msg_print.replace(
                     msg, bcolors.HEADER + msg + bcolors.ENDC)
+                print("")
+                print(msg_print)
+                print("")
                 input("Press enter to restart... ")
                 f.truncate(0)
                 done = []
